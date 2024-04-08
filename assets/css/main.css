@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.container{
+    margin-bottom:180px ;
+
+}
+
+.foto-1{
+    display: none;
+}
+
+.black{
+    width: 450px;
+    background: var(--Almost-Black, #151515);
+}
+
+.back{
+    display: flex;
+    position: relative;
+}
+
+.yazilar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    gap: 250px;
+    max-width: 1110px;
+
+    h1{
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 88px;
+        text-transform: uppercase;
+        mix-blend-mode: difference;
+    }
+
+   
+}
+
+.right{
+    p{
+        color: var(--Dark-Grey, #444);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 64px;
+    }
+
+    button{
+        color: var(--White, #FFF);
+        
+        font-size: 20px;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 3.636px;
+        background: var(--Almost-Black, #151515);
+        padding: 24px 32px;
+        border: none;
+    }
+}
+
+.btn{
+    display: flex;
+}
+
+.container-1{
+    margin-inline: auto;
+    max-width: 1110px;
+}
+
+.grup{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.grup-img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.paragraf{
+    padding-right: 95px;
+}
+
+
+.end-text{
+    padding: 65px 48px;
+
+    h1{
+        color: var(--White, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 60px;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+
+    p{
+        color: var(--White, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.text-light{
+    color: black;
+
+    h1{
+        color: black;
+    }
+
+    p{
+        color: black;
+    }
+}
+
+.footer{
+    background-color: black;
+    padding: 80px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 65px;
+}
+
+.footer-text{
+    max-width: 430px;
+    p{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 0.8;
+        
+    }
+}
+
+.social-media-links ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+.bg-dark{
+    background: #151515;
+    color: #FFF;
+}
+
+
+
+/* tablet */
+@media (width <= 768px){
+    .black{
+        display: none;
+    }
+
+    .yazilar{
+        display: block;
+        padding-inline: 48px;
+        right: 0px;
+        max-width: 340px;
+        transform: translate(0px, -40%);
+
+        h1{
+            color: var(--Almost-Black, #151515);
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 65px;
+            text-transform: uppercase;
+        }
+    }
+
+    .foto-1{
+        display: none;
+    }
+
+    .ss{
+        min-width: 280px;
+        padding: 0px;
+    }
+
+    .grup{
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+
+    .end-text{
+        min-width: 280px;
+        padding: 85px 28px;
+    }
+
+    .container-1{
+        padding-inline: 16px;
+    }
+
+    .mb-30{
+        margin-right: 16px;
+
+    }
+
+    .footer{
+        padding: 56px 39px;
+    }
+
+    .w-50{
+        max-width: 50%;
+    }
+
+    .tablet-w-100{
+        max-width: 100%;
+    }
+}
+
+
+/* telefon */
+@media (width <= 425px){
+    .foto{
+        display: none;
+    }
+
+    .yazilar{
+        position: inherit;
+        transform: none;
+        max-width: 100%;
+        padding-inline: 0;
+
+        h1{
+            padding-inline:16px;
+            color: var(--Almost-Black, #151515);
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 55px;
+            text-transform: uppercase;
+        }
+
+}
+    .right{
+        padding-inline:16px ;
+    }   
+
+    .foto-1{
+        display: block;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .grup{
+        display: block;
+    }
+
+    .revers{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .end-text{
+        padding: 48px 24px;
+    }
+
+    .mb-30{
+        margin-top: 16px;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .w-50{
+        max-width: 100%;
+    }
+
+    .container-1{
+        margin-bottom: 145px;
+    }
+
+    .container{
+        margin-bottom: 95px;
+    }
+
+
+}

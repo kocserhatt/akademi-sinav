@@ -1,0 +1,24 @@
+{
+    "top": {
+        "photo": "assets/img/Rectangle (2).jpg",
+        "title": "MODERN ART GALLERY",
+        "description": "The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.",
+        "button": "OUR LOCATION"
+    },
+    "middle": {
+        "photo": "assets/img/Rectangle (4).jpg",
+        "title": "Your Day at the Gallery",
+        "description": "Wander through our distinct collections and find new insights about our artists. Dive into the details of their creative process."
+    },
+    "bottom": {
+        "photo": "assets/img/Rectangle Copy 2 (2).jpg",
+        "photo2": "assets/img/Rectangle Copy 4 (2).jpg",
+        "title": "COME & BE INSPIRED",
+        "description": "We’re excited to welcome you to our gallery and see how our collections influence you."
+    },
+    "footer": {
+        "photo": "assets/img/MODERNARTGALLERY.PNG",
+        "photo2": "assets/img/Group 9.png",
+        "description": "The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA."
+    }
+}
